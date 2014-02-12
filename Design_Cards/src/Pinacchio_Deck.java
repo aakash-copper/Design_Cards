@@ -113,6 +113,8 @@ public class Pinacchio_Deck extends Deck_of_cards
 		System.out.println("******AFTER DEALING:");
 		System.out.println(p_DOC.Deal(p_DOC.p_cardList));
 		//p_DOC.sort(p_DOC.p_cardList);
+		// verified the output JackOfSpades
+	
 	}
 
 }
