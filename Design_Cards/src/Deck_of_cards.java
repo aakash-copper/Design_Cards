@@ -12,7 +12,7 @@ public class Deck_of_cards {
 	Deck_of_cards()
 	{
 		for(int i=0; i<4; i++)
-		{
+		{//
 			for(int j=0; j<13; j++)
 			{
 				cardList.add (new Card(Card.ranks[j],Card.suits[i]));
