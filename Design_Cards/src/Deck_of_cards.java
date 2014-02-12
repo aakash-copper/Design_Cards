@@ -50,9 +50,9 @@ public class Deck_of_cards {
 		return cutList;
 	}
 	
-	public Card Deal()
+	public Card Deal(ArrayList<Card> sample)
 	{
-		return cardList.get(0);
+		return sample.get(0);
 	}
 	
 	public int Search(String rank, String suit)
@@ -70,7 +70,7 @@ public class Deck_of_cards {
 	System.out.println(Doc.cardList);
 	
 	System.out.println("***************************");
-	System.out.println("Deal:"+Doc.Deal());
+	System.out.println("Deal:"+Doc.Deal(Doc.cardList));
 //	Doc.shuffle();
 	System.out.println("***************************AFTER CUTTING:");
 	System.out.println(Doc.cut(12));
