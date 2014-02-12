@@ -2,7 +2,9 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
 
-
+/*
+ * uses all the attributes of the Card class
+ */
 public class Deck_of_cards {
 	
 	private ArrayList<Card>  cardList = new ArrayList<Card>();
