@@ -9,12 +9,10 @@ public class Deck_of_cards {
 	
 	private ArrayList<Card>  cardList = new ArrayList<Card>();
 
-	
-	//int k=0;
 	Deck_of_cards()
 	{
 		for(int i=0; i<4; i++)
-		{//
+		{
 			for(int j=0; j<13; j++)
 			{
 				cardList.add (new Card(Card.ranks[j],Card.suits[i]));
@@ -22,13 +20,10 @@ public class Deck_of_cards {
 			}
 		}
 	 }
-
 	
 	public void shuffle(ArrayList<Card> sample){
 	Collections.shuffle(sample);
 	}
-	
-	
 	
 	public void sort(ArrayList<Card> sample)
 	{
@@ -80,8 +75,6 @@ public class Deck_of_cards {
 	System.out.println(Doc.cardList);
 	
 	System.out.println("***************************");
-	
-	
 	
 	}
 
